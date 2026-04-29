@@ -57,7 +57,44 @@ The following 7 models are implemented:
 * 30 numerical features
 
 ---
+##  Decision Tree Algorithms – Implementation Overview
 
+This project implements and compares multiple Decision Tree based machine learning models using Python and Scikit-learn on a classification dataset.
+
+---
+
+##  Code Snippets
+
+###  1. Model Training Code
+
+```python
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier, ExtraTreesClassifier
+from sklearn.ensemble import GradientBoostingClassifier, AdaBoostClassifier
+
+# CART (Gini Index)
+cart = DecisionTreeClassifier(criterion="gini", max_depth=3, random_state=42)
+cart.fit(X_train, y_train)
+
+# Entropy Tree
+entropy_tree = DecisionTreeClassifier(criterion="entropy", max_depth=3, random_state=42)
+entropy_tree.fit(X_train, y_train)
+
+# Random Forest
+rf = RandomForestClassifier(n_estimators=10, random_state=42)
+rf.fit(X_train, y_train)
+
+# Extra Trees
+et = ExtraTreesClassifier(n_estimators=10, random_state=42)
+et.fit(X_train, y_train)
+
+# Gradient Boosting
+gb = GradientBoostingClassifier(n_estimators=10, random_state=42)
+gb.fit(X_train, y_train)
+
+# AdaBoost
+ada = AdaBoostClassifier(n_estimators=10, random_state=42)
+ada.fit(X_train, y_train)
 ##  Project Structure
 
 ```bash
