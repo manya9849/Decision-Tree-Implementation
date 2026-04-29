@@ -115,12 +115,12 @@ jupyter notebook
 
 ##  Tree Visualization
 
-### ✔ Single Trees
+###  Single Trees
 
 * CART (Gini)
 * Entropy Tree
 
-### ✔ Ensemble Models
+###  Ensemble Models
 
 Since ensemble models consist of multiple trees, **only one representative tree is visualized**:
 
@@ -129,7 +129,7 @@ Since ensemble models consist of multiple trees, **only one representative tree 
 * Gradient Boosting → `estimators_[0,0]`
 * AdaBoost → `estimators_[0]`
 
-### ✔ ID3
+###  ID3
 
 * Displayed as a **text-based tree structure**
 
@@ -191,4 +191,4 @@ This project is created for academic purposes.
 
 
 
-This avoids conceptual errors during evaluation and shows deeper understanding.
+
