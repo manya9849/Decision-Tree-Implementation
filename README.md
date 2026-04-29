@@ -176,14 +176,13 @@ Since ensemble models consist of multiple trees, **only one representative tree 
 
 | Model             | Accuracy |
 | ----------------- | -------- |
-| CART              | XX                 |
-| Entropy Tree      | XX       |
-| Random Forest     | XX       |
-| Extra Trees       | XX       |
-| Gradient Boosting | XX       |
-| AdaBoost          | XX       |
+| CART              | 0.9035087719298246              |
+| Entropy Tree      | 0.9385964912280702    |
+| Random Forest     | 0.956140350877193     |
+| Extra Trees       | 0.956140350877193     |
+| Gradient Boosting | 0.956140350877193    |
+| AdaBoost          | 0.9385964912280702    |
 
-> Replace `XX` with actual values from your notebook output.
 
 ---
 
